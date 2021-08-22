@@ -1,0 +1,15 @@
+Questão 11-
+
+Can kruskal's algorithm be made to find all the minimum spanning trees of G?
+
+A resposta é sim. Executando o algoritmo de Kruskal, ele encontra a árvore geradora minima,
+mas nada garante que a árvore geradora minima encontra é única. Sendo assim, executando o algoritmo
+mais uma vez, e garantindo que ele comece por outra aresta com o menor peso possível, ele encontrará uma
+árvore geradora mínima diferente. Sendo assim, executando esse algoritmo várias vezes até garantir que todas
+as possibilidades foram esgotadas, teremos todas as árvores geradoras mínimas.
+
+For any graph G and a MST T of G, is there a valid execution of Kruskal´s algorithm on G that produces T as an output?
+
+A resposta é sim. O algoritmo de Kruskal já nos garante que a árvore encontrada vai ser a árvore geradora minima,
+portanto, durante a execução do algoritmo, é só mostrar cada nó que é visitado durante a execução, e quando todos os nós tiverem sido visitados
+ao menos uma vez, paramos a execução, gerando T como saída.
