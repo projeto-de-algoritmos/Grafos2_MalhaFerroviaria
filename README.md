@@ -15,7 +15,9 @@
 O objetivo desse trabalho é solucionar um problema para construção de malhas ferroviárias no Brasil. Existe uma demanda de ligar as principais cidades do Brasil através de rodovias, porém, o custo de se fazer isso pode ser muito elevado na maioria da vezes. Portanto, para solucionar o problema, pegaremos todas as cidades que precisa sem conectadas, e definir uma malha ferroviária que será construida, conectando todos os pontos, e garantindo que a malha terá o menor custo possível.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<img src="/midia/Grafo.png" alt="Github" width="500"/>
+<img src="/midia/Arvore.png" alt="Github" width="500"/>
+<img src="/midia/Caminho.png" alt="Github" width="500"/>
 
 ## Instalação 
 **Linguagem**: Python<br>
