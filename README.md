@@ -30,7 +30,7 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
   *  6 -> Executar o projeto com o Jupyter Notebook 
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+O objetivo do projeto é resolver um problema de construção de uma malha ferroviária entre as maiores capitais do Brasil. As capitais escolhidas foram Brasília, São Paulo, Rio de Janeiro, Belo Horizonte, Curitiba, Recife, Goiânia, Fortaleza, Salvador. O usuário vai escolher uma cidade de origem uma de destino, e no final do projeto, o programa mostrará o caminho de menor custo entre as cidades selecionadas. Uma árvore geradora mínima também é gerada, envolvendo todas as cidades e o menor custo possível,conectando todas elas.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
